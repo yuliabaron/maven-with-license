@@ -49,6 +49,10 @@
                     <artifactId>spring-web</artifactId>
                     <groupId>org.springframework</groupId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.jsoup</groupId>
+                    <artifactId>jsoup</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
     </dependencies>
